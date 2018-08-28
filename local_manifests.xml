@@ -10,6 +10,7 @@
   <project path="vendor/wiko" name="TINNO-8937/proprietary_vendor_wiko" revision="cm-14.1" />
   <project path="vendor/tinno" name="garlic-n/proprietary_vendor_tinno" revision="cm-14.1" />
   <project path="kernel/tinno/msm8937" name="garlic-n/android_kernel_tinno_msm8937" revision="louis/cm-14.1" />
+  <project path="scripts" name="garlic-n/scripts" revision="cm-14.1" />
 
 
   <remove-project name="LineageOS/android_hardware_qcom_audio" />
