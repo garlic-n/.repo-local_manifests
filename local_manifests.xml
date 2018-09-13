@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="device/tinno/msm8937-common" name="garlic-n/android_device_tinno_msm8937-common" revision="cm-14.1" />
-  <project path="device/micromax/hs2" name="TINNO-8937/android_device_micromax_hs3" revision="cm-14.1" />
-  <project path="device/micromax/hs3" name="TINNO-8937/android_device_micromax_hs2" revision="cm-14.1" />
-  <project path="device/yu/garlic" name="garlic-n/android_device_yu_garlic" revision="cm-14.1" />
-  <project path="device/wiko/wimlite" name="TINNO-8937/android_device_wiko_wimlite" revision="cm-14.1" />
+  <project path="device/tinno/msm8937-common" name="Yu-Project/Device-Tinno" revision="AEX-N" />
+<!--  <project path="device/micromax/hs2" name="TINNO-8937/android_device_micromax_hs3" revision="cm-14.1" />
+  <project path="device/micromax/hs3" name="TINNO-8937/android_device_micromax_hs2" revision="cm-14.1" /> -->
+  <project path="device/yu/garlic" name="Yu-Project/Device-Garlic" revision="LineageOS-N" />
+<!--  <project path="device/wiko/wimlite" name="TINNO-8937/android_device_wiko_wimlite" revision="cm-14.1" /> -->
   <project path="vendor/yu" name="garlic-n/proprietary_vendor_yu" revision="cm-14.1" />
-  <project path="vendor/micromax" name="TINNO-8937/proprietary_vendor_micromax" revision="cm-14.1" />
-  <project path="vendor/wiko" name="TINNO-8937/proprietary_vendor_wiko" revision="cm-14.1" />
+<!--  <project path="vendor/micromax" name="TINNO-8937/proprietary_vendor_micromax" revision="cm-14.1" />
+  <project path="vendor/wiko" name="TINNO-8937/proprietary_vendor_wiko" revision="cm-14.1" /> -->
   <project path="vendor/tinno" name="garlic-n/proprietary_vendor_tinno" revision="cm-14.1" />
-  <project path="kernel/tinno/msm8937" name="garlic-n/android_kernel_tinno_msm8937" revision="louis/cm-14.1" />
+  <project path="kernel/tinno/msm8937" name="Yu-Project/Kernel-Garlic" revision="N-MiniVelocity" />
   <project path="scripts" name="garlic-n/scripts" revision="cm-14.1" />
 
 
   <remove-project name="LineageOS/android_hardware_qcom_audio" />
   <remove-project name="LineageOS/android_hardware_qcom_display" />
   <remove-project name="LineageOS/android_hardware_qcom_media" />
-  <project path="hardware/qcom/audio-caf/msm8996" name="garlic-n/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-14.1-caf-8996" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="Yu-Project/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="AEX-N" />
   <project path="hardware/qcom/display-caf/msm8996" name="garlic-n/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-14.1-caf-8996" />
   <project path="hardware/qcom/media-caf/msm8996" name="garlic-n/android_hardware_qcom_media" groups="qcom" revision="cm-14.1-caf-8996" />
 
